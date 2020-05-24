@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "declaration": true,
+    "target": "es5",
+    "module": "ES6",
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "noImplicitAny": true,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "strictNullChecks": true
+  },
+  "include": [
+    "src"
+  ]
+}

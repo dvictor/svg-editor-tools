@@ -1,0 +1,49 @@
+<html>
+<head>
+    <style>
+        html, body, svg {
+            height: 100%;
+        }
+
+        .node {
+            fill: antiquewhite;
+        }
+
+        .elastic {
+            pointer-events: none;
+            display: none;
+            fill: rgba(0, 255, 255, 0.2);
+        }
+        .elastic.on {
+            display: block;
+        }
+
+        .node.selected {
+            stroke: black;
+        }
+    </style>
+</head>
+<body>
+<svg width="100%" height="100%">
+    <g>
+        <g transform="translate(50, 50)" class="node">
+            <rect width="100" height="100"/>
+        </g>
+        <g transform="translate(150, 150)" class="node">
+            <rect width="80" height="100"/>
+        </g>
+        <g transform="translate(100, 150)" class="node">
+            <rect width="100" height="80"/>
+        </g>
+        <g transform="translate(250, 50)" class="node">
+            <circle r="30" cx="30" cy="30"/>
+        </g>
+        <g transform="translate(350, 50)" class="node">
+            <circle r="30" cx="30" cy="30"/>
+        </g>
+    </g>
+    <rect class="elastic"/>
+</svg>
+
+<script type="module" src="demo.js"></script>
+</body>
