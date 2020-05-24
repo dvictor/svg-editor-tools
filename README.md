@@ -12,3 +12,5 @@ Features:
 No dependencies, easy to integrate in large projects.
 
 See demo.ts, demo.html for an example.
+
+Demo: https://dvictor.github.io/svg-editor-tools/demo.html
