@@ -1,6 +1,6 @@
 {
   "name": "svg-editor-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Primitives for building a browser based WYSWYG editor. Demo provided.",
   "main": "lib/index.js",
   "repository": "https://github.com/dvictor/svg-editor-tools",

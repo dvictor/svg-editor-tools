@@ -22,6 +22,8 @@ export function dnd(
 	const remove = (e: MouseEvent) => {
 		document.removeEventListener('touchmove', onMouseMove);
 		document.removeEventListener('mousemove', onMouseMove);
+		document.removeEventListener('mouseup', remove);
+		document.removeEventListener('touchend', remove);
 		onEnd(e)
 	};
 	function onMouseDown(e: MouseEvent) {
